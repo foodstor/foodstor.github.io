@@ -2428,6 +2428,7 @@ body.mobile-nav-active #mobile-nav-toggle {
    .banner-area .fullscreen {
 	  height: 700px !important
 	  background-size: auto 700;
+	  font-color: red;
 	}
 }
 
