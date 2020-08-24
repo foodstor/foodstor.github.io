@@ -2422,6 +2422,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: url(../img/banner_od.jpg) center;
 	background-size: cover;
 	background-attachment: fixed
+	background-position: center center;
 }
 
 @media only screen and (min-width: 768px) {
