@@ -2426,7 +2426,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media only screen and (max-width: 768px) {
    .banner-area .fullscreen {
-		height: 700px !important
+		width: 10% !important;
 	}
 }
 
