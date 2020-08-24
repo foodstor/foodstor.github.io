@@ -2550,7 +2550,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .item-category-area .single-cat-item .thumb img {
-	border-radius: 90px;
+	width: 200px;
+	border-radius: 100px;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
