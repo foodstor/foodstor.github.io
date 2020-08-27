@@ -2536,7 +2536,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 767px) {
-	.home-about-area .about-img {
+	.home-about-area {
 		display: none
 	}
 }
