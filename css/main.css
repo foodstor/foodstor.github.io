@@ -1,14 +1,12 @@
 ::-moz-selection {
 	background-color: #d1ab7f;
 	color: #fff;
-	opacity: 10% !important;
     
 }
 
 ::selection {
 	background-color: #d1ab7f;
 	color: #fff;
-	opacity: 10% !important;
 
 }
 
