@@ -762,6 +762,9 @@ th {
 	.no-flex-xs {
 		display: block !important
 	}
+	.biggerOnSmall{
+		font-size: 5vh !important;
+	}
 }
 
 .row.no-margin {
