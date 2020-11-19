@@ -58,41 +58,6 @@ $(document).ready(function() {
         footerIntagram();
     }
 
-
-    function footerIntagram(){
-        var feed = new Instafeed({
-            target: "footer-ig-stream",
-            get: "user",
-            limit : 6,
-            resolution: 'standard_resolution',
-            userId: 2159114835,
-            accessToken: "2159114835.9e667eb.7a37f9b944ea4023b94541c661cbf43d",
-            template: '<a href="{{image}}" class="mfp-ig-popup" data-effect="mfp-zoom-in" title="{{title}}"><img src="{{image}}" alt="{{caption}}"></a>',
-            after: function() {
-                $(".mfp-ig-popup").magnificPopup({
-                    type: "image",
-                    removalDelay: 500, //delay removal by X to allow out-animation
-                    image: {
-                        cursor: null
-                    },
-                    gallery: {
-                        enabled: true // set to false to disable gallery
-                    },
-                    callbacks: {
-                        beforeOpen: function() {
-                            // just a hack that adds mfp-anim class to markup 
-                            this.st.image.markup = this.st.image.markup.replace("mfp-figure", "mfp-figure mfp-with-anim");
-                            this.st.mainClass = this.st.el.attr("data-effect");
-                        }
-                    },
-                    midClick: true
-                });
-            }
-        });
-        feed.run();
-    }
-    
-
     //------- Mobile Nav  js --------//  
 
     if ($('#nav-menu-container').length) {
